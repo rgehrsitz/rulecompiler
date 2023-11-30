@@ -21,7 +21,7 @@ type Compiler struct {
 }
 
 // Compile compiles the IR into bytecode.
-func (c *Compiler) Compile(ir RuleIR) []byte {
+func (c *Compiler) CompileRule(ir RuleIR) []byte {
 	// Compilation logic
 	return []byte{}
 }

@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 
+	"github.com/rgehrsitz/rulecompiler/pkg/compiler"
 	"github.com/rgehrsitz/rulegopher/pkg/rules"
 )
 
